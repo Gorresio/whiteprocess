@@ -1,4 +1,4 @@
-# whiteprocess - White List Process Filter
+# whiteprocess (alpha 0.1)- White List Process Filter
 
 
 Full documentation and analysis:   http://ciaparath.altervista.org/publish/whiteprocess_doc.pdf
@@ -62,7 +62,7 @@ For terminate the service is sufficient kill the process (python2.7 /usr/share/w
 
 
 
-
+### - Note
 
 whiteprocess is a free software licensed by GPLv3.
 
