@@ -32,7 +32,7 @@ As you can easily notice, it runs in user mode.
 ### - Installation and Uninstallation
 
 Before install whiteprocess, its dependencies must be installed.
-Its dependencies are python2.7 and python-psutil.
+Its dependencies are *python2.7* and *python-psutil*.
 
 The installation process create:
  - configuration file: /etc/whiteprocess.conf
@@ -42,9 +42,9 @@ The installation process create:
 The uninstallation process remove all except log file.
 
 
-For install whiteprocess download the source and in ./whiteprocess/ directory type ./install command with root permission.
+For install whiteprocess download the source and in ./whiteprocess/ directory type **./install** command with root permission.
 
-For uninstall whiteprocess in ./whiteprocess/ directory type ./uninstall command with root permission.
+For uninstall whiteprocess in ./whiteprocess/ directory type **./uninstall** command with root permission.
 
 
 
@@ -53,10 +53,10 @@ For uninstall whiteprocess in ./whiteprocess/ directory type ./uninstall command
 
 Before start the service, configuration file must be configured.
 
-To find executables running type "whiteprocess check" command with root permission.
+To find executables running type **whiteprocess check** command with root permission.
 
 Once the configuration file has been completed, you can start the daemon
-with command "whiteprocess start" how root.
+with command **whiteprocess start** how root.
 
 For terminate the service is sufficient kill the process (python2.7 /usr/share/whiteprocess/whiteprocess.py start) with program how htop, etc. or reboot the system.
 
