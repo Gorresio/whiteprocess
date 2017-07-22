@@ -60,7 +60,13 @@ with command "whiteprocess start" how root.
 
 For terminate the service is sufficient kill the process (python2.7 /usr/share/whiteprocess/whiteprocess.py start) with program how htop, etc. or reboot the system.
 
-
+### - Future Development
+The following points could be developed in the future:
+- Adding stopping function
+- Control child threads (more protection for script malwares and some buffer overflow attacks)
+- Cross checks arguments of executables (lock script malwares)
+- Prevention execution instead of kill after execution
+- Conversion from script to binary (from Python to C)
 
 ### - Note
 
