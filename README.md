@@ -32,6 +32,7 @@ As you can easily notice, it runs in user mode.
 ### - Installation and Uninstallation
 
 Before install whiteprocess, its dependencies must be installed.
+
 Its dependencies are *python2.7* and *python-psutil*.
 
 The installation process create:
