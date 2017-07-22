@@ -3,7 +3,7 @@ Full documentation and analysis:   http://ciaparath.altervista.org/publish/white
 
 
 
-**- General Functioning**
+#- General Functioning
 
 whiteprocess is a simple software (for now it is in alpha version) programmed in Python 2.7 for UNIX systems which is used to filter threads in white list.
 
@@ -27,7 +27,7 @@ As you can easily notice, it runs in user mode.
 
 
 
-**- Installation and Uninstallation**
+#- Installation and Uninstallation
 
 Before install whiteprocess, its dependencies must be installed.
 Its dependencies are python2.7 and python-psutil.
@@ -47,7 +47,7 @@ For uninstall whiteprocess in ./whiteprocess/ directory type ./uninstall command
 
 
 
-**- Use of whiteprocess**
+#- Use of whiteprocess
 
 Before start the service, configuration file must be configured.
 
