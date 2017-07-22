@@ -76,6 +76,7 @@ Copy of GPLv3 license is present in ./LICENSE file
 
 
 If you notice any violations by myself or by third parties, please contact me at stefano.gorresio@null.net
+
 Violations of the use of whiteprocess could be legally prosecutable.
 
 
