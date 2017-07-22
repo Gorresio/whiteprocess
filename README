@@ -3,7 +3,7 @@ Full documentation and analysis:   http://ciaparath.altervista.org/publish/white
 
 
 
-**- General Functioning**
+#**- General Functioning**
 
 whiteprocess is a simple software (for now it is in alpha version) programmed in Python 2.7 for UNIX systems which is used to filter threads in white list.
 
