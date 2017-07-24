@@ -49,6 +49,7 @@ For install whiteprocess download the source and in ./whiteprocess/ directory ty
 
 For uninstall whiteprocess in ./whiteprocess/ directory type **./uninstall** command with root permission.
 
+If install and uninstall script generate error how *Permission Denied* or *./install: command not found*, Make sure that of correct permission and if the scripts are marked as executable (if not, type **chmod +x install uninstall** command in ./whiteprocess/).
 
 
 
