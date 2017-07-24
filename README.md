@@ -4,6 +4,8 @@
 Full documentation and analysis:   http://ciaparath.altervista.org/publish/whiteprocess_doc.pdf
 
 
+**Update 24 July 2017**: The development of this project is currently continuing.
+
 
 ### - General Functioning
 
