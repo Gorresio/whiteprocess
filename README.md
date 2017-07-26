@@ -5,6 +5,11 @@ Full documentation and analysis:   http://ciaparath.altervista.org/publish/white
 
 
 **Update 24 July 2017**: The development of this project is currently continuing.
+**Update 26 July 2017**: The following points are being developed:
+- Arguments control (white list exe and args)
+- Number threads control
+- Optimization algorithm
+- More "user experience"
 
 
 ### - General Functioning
