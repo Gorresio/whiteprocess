@@ -64,7 +64,7 @@ To find commands running type **whiteprocess check_cmd** command with root permi
 Once the configuration file has been completed, you can start the daemon
 with command **whiteprocess start** how root.
 
-For terminate the service is sufficient kill the process (python2.7 /usr/share/whiteprocess/whiteprocess.py start) with program how htop, etc. or reboot the system.
+For terminate the service is sufficient type **whiteprocess stop** how root or kill the process (python2.7 /usr/share/whiteprocess/whiteprocess.py start) with program how htop, etc. or reboot the system.
 
 ### - Future Development
 The following points could be developed in the future:
