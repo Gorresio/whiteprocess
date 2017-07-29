@@ -2,6 +2,7 @@
 
 mkdir /usr/share/whiteprocess
 cp source/whiteprocess.py /usr/share/whiteprocess/whiteprocess.py
+echo 'S,0' > /usr/share/whiteprocess/whiteprocess.status
 cp source/whiteprocess.conf /etc/whiteprocess.conf
 cp source/whiteprocess /bin/whiteprocess
 chmod +x /bin/whiteprocess
