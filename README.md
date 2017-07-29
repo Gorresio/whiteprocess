@@ -57,7 +57,9 @@ If install and uninstall script generate error how *Permission Denied* or *./ins
 
 Before start the service, configuration file must be configured.
 
-To find executables running type **whiteprocess check** command with root permission.
+To find executables running type **whiteprocess check_exe** command with root permission.
+
+To find commands running type **whiteprocess check_cmd** command with root permission.
 
 Once the configuration file has been completed, you can start the daemon
 with command **whiteprocess start** how root.
