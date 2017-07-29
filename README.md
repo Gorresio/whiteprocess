@@ -1,7 +1,7 @@
-# whiteprocess (alpha 0.1)- White List Process Filter
+# whiteprocess (alpha 0.3)- White List Process Filter
 
 
-Full documentation and analysis:   http://ciaparath.altervista.org/publish/whiteprocess\_A0.3\_doc.pdf
+Full documentation and analysis:   http://ciaparath.altervista.org/publish/whiteprocess_A0.3_doc.pdf
 
 
 
@@ -80,6 +80,7 @@ whiteprocess alpha 0.3
 - Optimized scanning algorithm
 - Added info to log file
 - Improved "user experience"
+
 whiteprocess alpha 0.1
 - Added installation and uninstallation script
 - Added executables filter
