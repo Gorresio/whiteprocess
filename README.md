@@ -3,7 +3,7 @@
 
 Full documentation and analysis:   http://ciaparath.altervista.org/publish/whiteprocess_A0.3_doc.pdf
 
-** Update 30 July 2017**
+**Update 30 July 2017**
 The following points will be developed:
 - Add BSD support
 - Add control function (alert if whiteprocess is killed)
