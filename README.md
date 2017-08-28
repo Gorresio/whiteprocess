@@ -1,19 +1,18 @@
-# whiteprocess (alpha 0.3)- White List Process Filter
+# whiteprocess (alpha 0.5) - Whitelist Process on UNIX (GNU/Linux and BSD)
 
 
-Full documentation and analysis:   http://ciaparath.altervista.org/publish/whiteprocess_A0.3_doc.pdf
+Full documentation and analysis:   http://ciaparath.altervista.org/publish/whiteprocess\_A0.5\_doc.pdf
 
-**Update 30 July 2017**
-The following points will be developed:
-- Add BSD support
-- Add control function (alert if whiteprocess is killed)
-- Optimize source code
-- Add "user experience"
+For testing:   http://ciaparath.altervista.org/trytohack\_whiteprocess.html
 
 
 ### - General Functioning
 
 whiteprocess is a simple software (for now it is in alpha version) programmed in Python 2.7 for UNIX systems which is used to filter threads in white list.
+
+Its purpose is to optimize the work that antivirus offers, performing a filtering of all process/threads that the user did not declare to be “allowed” to run.
+
+whiteprocess replaces antivirus on server.
 
 
 Its functioning is very simple:
@@ -39,12 +38,15 @@ As you can easily notice, it runs in user mode.
 ### - Installation and Uninstallation
 
 Before install whiteprocess, its dependencies must be installed.
+
 Its dependencies are *python2.7* and *python-psutil*.
 
 The installation process create:
  - configuration file: /etc/whiteprocess.conf
- - directory and python script: /usr/share/whiteprocess/whiteprocess.py
+ - directory: /usr/share/whiteprocess/
+ - compiling python script and put them in /usr/share/whiteprocess/
  - status file:  /usr/share/whiteprocess/whiteprocess.status
+ - template config file:  /usr/share/whiteprocess/whiteprocess.conf
  - sh script: /bin/whiteprocess
 
 The uninstallation process remove all except log file.
@@ -67,20 +69,36 @@ To find executables running type **whiteprocess check_exe** command with root pe
 
 To find commands running type **whiteprocess check_cmd** command with root permission.
 
-Once the configuration file has been completed, you can start the daemon
-with command **whiteprocess start** how root.
+To configure whiteprocess there are two options: manual configuration and guided configuration.
 
-For terminate the service is sufficient type **whiteprocess stop** how root or kill the process (python2.7 /usr/share/whiteprocess/whiteprocess.py start) with program how htop, etc. or reboot the system.
+For execute the guided configuration run **whiteprocess autoconf** with root permission.
+
+Once the configuration file has been completed, you can start the daemon with command **whiteprocess start** how root.
+
+For terminate the service is sufficient type **whiteprocess stop** how root or kill the process (python2.7 /usr/share/whiteprocess/whiteprocess.pyc start) with program how htop, etc. or reboot the system.
+
+If whiteprocess is killed forcedly without appropriate command, it is necessary execute **whiteprocess reset_status** how root for execute again the service.
+
 
 ### - Future Development
 The following points could be developed in the future:
 - Improve “user experience”
-- Add new controls
+- Add remote check 
 - Automate some procedures
 - Prevention execution instead of kill after execution
 - Conversion from script to binary (from Python to C)
 
 ### - Version History
+whiteprocess alpha 0.5
+- Added autoconf function
+- Added password for stopping service
+- Added reset configuration
+- Added reset status (for manage irregular stops)
+- Improved "user experience"
+- Corrected some bugs
+- Optimized source code
+- Use of */bin/sh* instead of */bin/bash* in scripts
+
 whiteprocess alpha 0.3
 - Added stopping function
 - Added arguments filter
@@ -105,9 +123,11 @@ If you notice any violations by myself or by third parties, please contact me at
 
 Violations of the use of whiteprocess could be legally prosecutable.
 
+*I know, source code for now is a bit messy XD*
 
 
 Stefano Gorresio
 
 Email: stefano.gorresio@null.net
+
 
