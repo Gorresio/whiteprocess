@@ -1,9 +1,9 @@
 # whiteprocess (alpha 0.5) - Whitelist Process on UNIX (GNU/Linux and BSD)
 
 
-Full documentation and analysis:   http://ciaparath.altervista.org/publish/whiteprocess\_A0.5\_doc.pdf
+Full documentation and analysis:   http://ciaparath.altervista.org/publish/whiteprocess_A0.5_doc.pdf
 
-For testing:   http://ciaparath.altervista.org/trytohack\_whiteprocess.html
+For testing:   http://ciaparath.altervista.org/trytohack_whiteprocess.html
 
 
 ### - General Functioning
