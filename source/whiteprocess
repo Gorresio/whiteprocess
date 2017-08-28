@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 # This is an init script (temporary)
 
-if [ "$1" == "start" ]; then
-	python2.7 /usr/share/whiteprocess/whiteprocess.py $1 &
+if [ "$1" = "start" ]; then
+	python2.7 /usr/share/whiteprocess/whiteprocess.pyc $1 &
 else
-	python2.7 /usr/share/whiteprocess/whiteprocess.py $1
+	python2.7 /usr/share/whiteprocess/whiteprocess.pyc $1
 fi
