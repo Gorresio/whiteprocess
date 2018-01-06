@@ -6,6 +6,17 @@ Full documentation and analysis:   http://ciaparath.altervista.org/publish/white
 For testing:   http://ciaparath.altervista.org/trytohack_whiteprocess.html
 
 
+** INCOMING UPDATE **
+whiteprocess PyELF beta version incoming
+Updates:
+- Convert python to ELF (compiled with nuitka)
+- Added new features (directory whitelisting and remote control)
+- Added a real daemon mode
+- Modularized source code
+- Fixed some bugs
+- Create automatic installations with precompiled
+
+
 ### - General Functioning
 
 whiteprocess is a simple software (for now it is in alpha version) programmed in Python 2.7 for UNIX systems which is used to filter threads in white list.
