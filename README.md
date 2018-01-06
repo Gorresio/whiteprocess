@@ -6,8 +6,10 @@ Full documentation and analysis:   http://ciaparath.altervista.org/publish/white
 For testing:   http://ciaparath.altervista.org/trytohack_whiteprocess.html
 
 
-** INCOMING UPDATE **
+**INCOMING UPDATE**
+
 whiteprocess PyELF beta version incoming
+
 Updates:
 - Convert python to ELF (compiled with nuitka)
 - Added new features (directory whitelisting and remote control)
