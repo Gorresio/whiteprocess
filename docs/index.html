@@ -1,0 +1,128 @@
+<html>
+	<head>
+		<title>
+			whiteprocess - Antivirus and Threads Controller for UNIX Server
+		</title>
+		<style>
+		body {
+	background: url(background.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: Helvetica, Arial, Verdana, Geneva, sans-serif;
+    color:white;
+	font-size: 16px;
+}
+table { width: 75%; background-color: #3d3d29; color: white; border-color: #000000; border-collapse: collapse; }
+a {color:white}
+		</style>
+	</head>
+	<body>
+		<div style="text-align:center">
+		<br><br><br><br><br><br>
+		<h1>
+			whiteprocess<br>Whitelist Threads Filter for UNIX Server
+		</h1>
+		<h2>
+			Antivirus and Threads Controller for High Security Servers
+		</h2>
+		</div>
+		<br><br><br><br><br><br>
+<h3>
+	Introduction
+</h3>
+whiteprocess is a simple software programmed in Python 2.7 and compiled in ELF for UNIX systems which is used to filter threads in whitelist.
+<br>
+Its purpose is to optimize the work that antivirus offers, performing a filtering of all process/threads that the user did not declare to be "allowed" to run.
+<br>
+whiteprocess replaces antivirus on server.
+<br><br>
+Its objectives are:
+<ul>
+    <li>Blocking malwares and unwanted executables (executables and scripts)</li>
+    <li>Blocking buffer overflow attacks</li>
+    <li>Regularly check the running threads</li>
+    <li>Offer a user-friendly system</li>
+</ul>
+<br><br>
+<h3>
+Download
+</h3>
+<table align="center" border="1" cellspacing="10" cellpadding="10">
+<tr style="background-color: #14141f; color:white;">
+	<th>
+		CONTENTS
+	</th>
+	<th>
+		LINKS
+	</th>
+</tr>
+<tr>
+	<td>
+		whiteprocess Source Code
+	</td>
+	<td>
+		<a href="https://github.com/Gorresio/whiteprocess">Github</a>
+	</td>
+</tr>
+<tr>
+	<td>
+		whiteprocess GNU/Linux x86_64
+	</td>
+	<td>
+		<a href="https://github.com/Gorresio/whiteprocess/releases/download/untagged-d09173a2c2342b2aec39/whiteprocess0.8-pck_Linux-x86_64.zip">Download</a>
+	</td>
+</tr>
+<tr>
+	<td>
+		whiteprocess BSD x86_64
+	</td>
+	<td>
+		<a href="https://github.com/Gorresio/whiteprocess/releases/download/untagged-d09173a2c2342b2aec39/whiteprocess0.8-pck_BSD-x86_64.zip">Download</a>
+	</td>
+</tr>
+<tr>
+	<td>
+		whiteprocess Full Documentation
+	</td>
+	<td>
+		<a href="https://github.com/Gorresio/whiteprocess/files/1691583/whiteprocess_PyELF_B0.8_doc.pdf">Download</a>
+	</td>
+</tr>
+</table>
+<br><br><br><br>
+<h3>
+Main Features
+</h3>
+<li><b> Filter Threads by Executables</b></li>
+Given a list of executables, it kills thread initiated by executables not belonging to the list.
+<br><br>
+<li><b> Filter New Spawned Threads</b></li>
+Given a list of executables, all threads created after running whiteprocess will been killed (useful against many buffer overflow attacks).
+<br><br>
+<li><b> Filter Threads by Arguments</b></li>
+Filter threads from an arguments whitelist instead of executables whitelist.
+<br><br>
+<li><b> Remote Control</b></li>
+Possibility to control whiteprocess on multiple servers with a single command.
+<br><br>
+<li><b> Modular</b></li>
+whiteprocess is designed to be modular.
+<br>
+It consists of several modules that can be exchanged flexibly.
+<br><br>
+<li><b> Simple Structure</b></li>
+whiteprocess has a simple structure that will be improved and optimized over time.
+This simplicity makes future updates and customizations simple.
+<br>
+No external dependencies required.
+<br><br>
+<li><b> High Security</b></li>
+This software offers a high level of security, even in its implementation.
+<br><br>
+<li><b> Open Source</b></li>
+whiteprocess is entirely open source and can be modified and customized to suit your needs.
+<br><br><br><br><br>
+	</body>
+</html>
