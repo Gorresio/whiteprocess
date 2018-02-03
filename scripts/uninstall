@@ -1,0 +1,6 @@
+#!/bin/sh
+
+rm -rfv /usr/share/whiteprocess
+rm -v /usr/bin/whiteprocess /usr/bin/whiteprocess_tools /usr/bin/whiteprocessd /etc/whiteprocess.conf
+echo ''
+echo 'whiteprocess removed.'

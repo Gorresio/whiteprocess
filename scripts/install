@@ -1,0 +1,12 @@
+#!/bin/sh
+
+mkdir /usr/share/whiteprocess
+echo 'S,0' > /usr/share/whiteprocess/whiteprocess.status
+cp -v whiteprocess.conf /usr/share/whiteprocess/
+cp -v whiteprocess.conf /etc/
+cp -v whiteprocess whiteprocessd whiteprocess_tools /usr/bin/
+chmod +x /usr/bin/whiteprocess
+chmod +x /usr/bin/whiteprocessd
+chmod +x /usr/bin/whiteprocess_tools
+echo ''
+echo 'whiteprocess installed.'

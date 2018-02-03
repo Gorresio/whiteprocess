@@ -1,0 +1,8 @@
+#!/bin/sh
+# Daemon whiteprocess Launcher
+
+if [ "$1" = "start" ]; then
+	nohup /usr/bin/whiteprocess $1 >/dev/null 2>&1 &
+else
+	/usr/bin/whiteprocess $1
+fi
