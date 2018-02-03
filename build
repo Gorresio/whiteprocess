@@ -1,0 +1,26 @@
+#!/bin/sh
+# whiteprocess Compiler
+
+echo 'Note: "pyinstaller" required for build the package.'
+cd source
+echo 'Compile whiteprocess...'
+pyinstaller --onefile whiteprocess.py
+echo 'Compile whiteprocess_tools...'
+pyinstaller --onefile whiteprocess_tools.py
+echo 'Finish compilation...'
+cd ..
+rm -rf whiteprocess-package
+mkdir whiteprocess-package
+mv source/dist/whiteprocess whiteprocess-package/whiteprocess
+mv source/dist/whiteprocess_tools whiteprocess-package/whiteprocess_tools
+cp source/whiteprocess.conf whiteprocess-package/
+cp script/whiteprocessd whiteprocess-package/
+cp script/install whiteprocess-package/
+cp script/uninstall whiteprocess-package/
+chmod +x whiteprocess-package/install
+chmod +x whiteprocess-package/uninstall
+echo 'Clean...'
+rm -rf source/whiteprocess.spec
+rm -rf source/whiteprocess_tools.spec
+rm -rf source/dist/ source/build/
+
