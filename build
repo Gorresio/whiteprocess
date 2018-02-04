@@ -14,9 +14,9 @@ mkdir whiteprocess-package
 mv source/dist/whiteprocess whiteprocess-package/whiteprocess
 mv source/dist/whiteprocess_tools whiteprocess-package/whiteprocess_tools
 cp source/whiteprocess.conf whiteprocess-package/
-cp script/whiteprocessd whiteprocess-package/
-cp script/install whiteprocess-package/
-cp script/uninstall whiteprocess-package/
+cp scripts/whiteprocessd whiteprocess-package/
+cp scripts/install whiteprocess-package/
+cp scripts/uninstall whiteprocess-package/
 chmod +x whiteprocess-package/install
 chmod +x whiteprocess-package/uninstall
 echo 'Clean...'
