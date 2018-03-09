@@ -86,6 +86,12 @@ For stop it:
 # whiteprocessd stop
 ```
 
+For auto execution in boot, put in boot script (ex. **/etc/rc.local**) the follow commands
+```
+whiteprocessd reset_status
+whiteprocessd start
+```
+
 ### - Future Development
 The following points could be developed in the future:
 
