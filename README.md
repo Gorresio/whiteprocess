@@ -137,14 +137,6 @@ whiteprocess is a computer security software and making it close source would be
 
 whiteprocess will always be open source and its maintenance will always be free.
 
-**Will there be whiteprocess for Microsoft Windows Server?**
-
-whiteprocess is a brutal thread filtering software that works in whitelist.
-
-MS Windows has a structure of permissions and threads management that would make whiteprocess not very effective.
-
-For now it is not planned to create this software for MS Windows, but in the future...
-
 ### - Note
 
 whiteprocess is a free software licensed by GPLv3.
