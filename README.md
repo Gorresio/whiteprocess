@@ -5,6 +5,7 @@
 
 * For testing:   [Try to Hack whiteprocess](http://ciaparath.altervista.org/trytohack\_whiteprocess.html)
 
+If you want to implement the current version of whiteprocess in production environments, please contact me so as not to have problems in the transition to the stable version.
 
 ### WARNING - Important Final Upgrade
 * The current version of whiteprocess will be included in a fork **whiteprocess-beta** (supported throughout 2018)
