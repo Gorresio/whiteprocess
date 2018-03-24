@@ -1,10 +1,16 @@
 
 # whiteprocess (PyELF beta 0.8) - Whitelist Threads Filter on UNIX (GNU/Linux and BSD)
 
-
 * Full documentation and analysis:   [whiteprocess\_PyELF\_B0.8\_doc.pdf](http://ciaparath.altervista.org/publish/whiteprocess\_PyELF\_B0.8\_doc.pdf)
 
 * For testing:   [Try to Hack whiteprocess](http://ciaparath.altervista.org/trytohack\_whiteprocess.html)
+
+
+### WARNING - Important Final Upgrade
+* The current version of whiteprocess will be included in a fork **whiteprocess-beta** (supported throughout 2018)
+* Remote Check will be deleted from the next version (for now it is a useless feature, it will be included as a separate component).
+* Version for Microsoft Windows under development.
+
 
 
 ### - General Functioning
