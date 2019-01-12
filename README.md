@@ -8,9 +8,12 @@
 If you want to implement the current version of whiteprocess in production environments, please contact me so as not to have problems in the transition to the stable version.
 
 ### WARNING - Important Final Upgrade
-* The current version of whiteprocess will be included in a fork **whiteprocess-beta** (supported throughout 2018)
+I apologize if the project has been stopped for almost a year, but for reasons of time I will have to postpone the development for some time.
+I intend to develop it in Rust with:
+* UNICODE support.
+* The current version of whiteprocess will be included in a fork **whiteprocess-beta**
 * Remote Check will be deleted from the next version (for now it is a useless feature, it will be included as a separate component).
-* Version for Microsoft Windows under development.
+* Support for Microsoft Windows.
 
 
 
@@ -98,18 +101,6 @@ For auto execution in boot, put in boot script (ex. **/etc/rc.local**) the follo
 whiteprocessd reset_status
 whiteprocessd start
 ```
-
-### - Future Development
-The following points could be developed in the future:
-
-- Perform complete and exhaustive performance and robustness tests.
-- Insert TLS in whiteprocess network communications.
-- Divide agents into different executables to lighten primary memory.
-- Prevention execution instead of kill after execution.
-- Improve "user experience".
-- Improve "remote management".
-- Simplification and organization of source codes
-- In case of big updates, an automatic update script will be issued.
 
 ### - FAQ
 **Can you use whiteprocess in a production environment?**
