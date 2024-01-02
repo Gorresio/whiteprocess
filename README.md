@@ -1,10 +1,6 @@
 
 # whiteprocess (PyELF beta 0.8) - Whitelist Threads Filter on UNIX (GNU/Linux and BSD)
 
-* Full documentation and analysis:   [whiteprocess\_PyELF\_B0.8\_doc.pdf](http://ciaparath.altervista.org/publish/whiteprocess\_PyELF\_B0.8\_doc.pdf)
-
-* For testing:   [Try to Hack whiteprocess](http://ciaparath.altervista.org/trytohack\_whiteprocess.html)
-
 If you want to implement the current version of whiteprocess in production environments, please contact me so as not to have problems in the transition to the stable version.
 
 ### WARNING - Important Final Upgrade
@@ -146,7 +142,7 @@ The use of whiteprocess is at your own risk: read the documentation before using
 
 Stefano Gorresio
 
-Email: stefano.gorresio@null.net
+Email: stefano.gorresio@gmail.com
 
 
 ### - Version History
