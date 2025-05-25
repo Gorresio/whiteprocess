@@ -1,16 +1,9 @@
 
 # whiteprocess (PyELF beta 0.8) - Whitelist Threads Filter on UNIX (GNU/Linux and BSD)
 
-If you want to implement the current version of whiteprocess in production environments, please contact me so as not to have problems in the transition to the stable version.
+Full Documentation: https://github.com/Gorresio/whiteprocess/files/1691583/whiteprocess_PyELF_B0.8_doc.pdf
 
-### WARNING - Important Final Upgrade
-I apologize if the project has been stopped for almost a year, but for reasons of time I will have to postpone the development for some time.
-I intend to develop it in Rust with:
-* UNICODE support.
-* The current version of whiteprocess will be included in a fork **whiteprocess-beta**
-* Remote Check will be deleted from the next version (for now it is a useless feature, it will be included as a separate component).
-* Support for Microsoft Windows.
-
+Pre-compiled executables for Linux and BSD: https://gorresio.github.io/whiteprocess/
 
 
 ### - General Functioning
@@ -101,7 +94,7 @@ whiteprocessd start
 ### - FAQ
 **Can you use whiteprocess in a production environment?**
 
-Yes. From the beta version, whiteprocess can be used safely in production environments (it is still better to verify the correct operation in test environments).
+Yes. From the beta version, whiteprocess can be used safely in production environments (it is still better to verify the correct operation in test environments: **incorrect configurations may cause denial of services**).
 
 Remote Control is still experimental.
 
@@ -115,10 +108,6 @@ Absolutely yes, if you try to run whiteprocess without first configuring it, the
 
 It depends. I use 0.5 seconds (the use of the CPU is not very high and the threads are not allowed to be eliminated almost instantly).
 
-**Switching between successive versions how does it work?**
-
-From now on, for each update, a script that will automatically update whiteprocess will be released (during the update it will have to be turned off).
-
 **Will whiteprocess always be open source?**
 
 whiteprocess is a computer security software and making it close source would be a contradiction.
@@ -131,18 +120,7 @@ whiteprocess is a free software licensed by GPLv3.
 
 Copy of GPLv3 license is present in ./LICENSE file
 
-
-If you notice any violations by myself or by third parties, please contact me.
-
-Serious violations of the use of whiteprocess source code could be legally prosecutable.
-
-*I know, source code for now is a bit messy XD (see documentation)*
-
-The use of whiteprocess is at your own risk: read the documentation before using it in production environments.
-
-Stefano Gorresio
-
-Email: stefano.gorresio@gmail.com
+The use of whiteprocess is at your own risk: read the documentation before using it.
 
 
 ### - Version History
